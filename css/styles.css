@@ -378,6 +378,12 @@ text-align: center;
   padding: 16px 32px;
   border: 1px solid rgba(175, 177, 184, 1);
 }
+.clients:hover,
+.clients:focus{
+  fill:currentColor;
+}
+
+
 .social-link{
   display: flex;
   justify-content: center;
@@ -388,7 +394,7 @@ text-align: center;
 
 .social-icon{
   fill:currentColor;
-  padding:12px;
+  
 }
   
 .social-icon:hover{
