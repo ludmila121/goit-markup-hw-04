@@ -389,6 +389,7 @@ text-align: center;
 
 .social-icon{
   fill:currentColor;
+  
 }
   
 .social-icon:hover{
@@ -408,12 +409,16 @@ padding:60px 0;
 .footer-container{
   display: flex;
   align-items: center;
+  gap: 10px;
+  margin-top: 20px;
 }
-.social-footer{
-  display: block;
-  align-items: baseline;
 
+.social-list{
+  display: flex;
+  align-items: baseline;
 }
+
+
 address{
   font-style: normal;
   margin-top: 20px;
