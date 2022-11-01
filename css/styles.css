@@ -198,17 +198,18 @@ padding: 32px 0;
 }
 .link-icon:hover,
 .link-icon:focus{
-  color: currentColor;
+  color: var(--accent-color)
 }
+
+
 /* HERO*/
 .banner{
-  
   max-width: 1600px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
     background-size: cover;
-    background-image: linear-gradient(to rigt, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../img/Img-10.jpg');
+    background: linear-gradient(to rigt rgba(47, 48, 58, 0.4) rgba(47, 48, 58, 0.4)) url('../img/employment.jpg');
   background-color: var(--secundary-color);
 
   }
@@ -384,6 +385,11 @@ gap: 10px;
   margin: auto;
   padding-bottom: 30px;
 }
+.social-list:hover,
+.social-list:focus{
+color: var(--accent-color);
+}
+
 .footer{
 background-color: var(--secundary-color);
 padding:60px 0;
