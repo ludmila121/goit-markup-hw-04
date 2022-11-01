@@ -385,9 +385,16 @@ text-align: center;
   margin: auto;
   padding-bottom: 30px;
   border-radius: 50%;
-
-
 }
+
+.social-icon{
+  fill:currentColor;
+}
+  
+.social-icon:hover{
+  fill: currentColor;
+}
+
 .social-list:hover,
 .social-list:focus{
 color: var(--accent-color);
