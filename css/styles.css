@@ -202,12 +202,19 @@ padding: 32px 0;
 }
 /* HERO*/
 .banner{
-  padding: 200px 0;
+  
+  max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-image: linear-gradient(to rigt, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../img/Img-10.jpg');
   background-color: var(--secundary-color);
-  background-image: url(./img/img-10.jpg);
-  background-position: 150% 150%;
-}
+
+  }
+
 .banner-container{
+  padding: 200px 0;
   display:block;
   align-items: center;
 
@@ -329,6 +336,11 @@ margin-bottom: 50px;
   background-color:var(--primary-white-color) ;
   width: 270px;
   outline: 1px solid rgba(0, 0, 0, 0.2);
+  Drop: shadow ;
+  Radius: 1px; 
+  Offset: 0px, 2px rgba(0, 0, 0, 0.2);
+  Radius: 1px ;
+  Offset: 0px, 1px rgba(0, 0, 0, 0.14)
   }
 
 .card-name{
