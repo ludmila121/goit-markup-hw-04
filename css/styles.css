@@ -209,8 +209,7 @@ padding: 32px 0;
     margin-left: auto;
     margin-right: auto;
     background-size: cover;
-    background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47,48,58,0.4));
-    background-image:url('../img/employment.jpg');
+    background-image: linear-gradient(rgba(47,48,58,0.4),rgba(47,48,58,0.4)), url('../img/employment.jpg');
      background-color: var(--secundary-color);
 
   }
@@ -381,10 +380,13 @@ text-align: center;
 }
 .social-link{
   display: flex;
-justify-content: center;
-gap: 10px;
+  justify-content: center;
+  gap: 10px;
   margin: auto;
   padding-bottom: 30px;
+  border-radius: 50%;
+
+
 }
 .social-list:hover,
 .social-list:focus{
