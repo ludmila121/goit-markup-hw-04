@@ -178,7 +178,8 @@ padding: 32px 0;
 
   color:var(--title-text-color);
   text-decoration: none;
-  transition-property:currentColor;
+  display: flex;
+  align-items: center;
 }
 
 
@@ -211,15 +212,11 @@ padding: 32px 0;
     background-size: cover;
     background-image: linear-gradient(rgba(47,48,58,0.4),rgba(47,48,58,0.4)), url('../img/employment.jpg');
      background-color: var(--secundary-color);
-
+    padding: 200px 0;
   }
 
-.banner-container{
-  padding: 200px 0;
-  display:block;
-  align-items: center;
 
-}
+
 .banner-title{
   color:var(--primary-white-color);
   font-weight: 900;
@@ -364,23 +361,40 @@ font-size: 16px;
 line-height: 1.18;
 display: block;
 text-align: center;
+margin-bottom: 16px;
 }
+
+.clients-section {
+  padding: 94px 0;
+
+  }
+.clients-icon{
+  fill:currentColor;
+}
+
 .client-list{
   display: flex;
   align-items: center;
   gap: 30px;
 }
 
-.clients-container {
-  padding: 94px 0;
-}
+
 .clients{
-  padding: 16px 32px;
-  border: 1px solid rgba(175, 177, 184, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  color: #AFB1B8;
+  border-radius: 4px;
 }
+ 
 .clients:hover,
 .clients:focus{
   fill:currentColor;
+  color: var(--accent-color);
+  border-color:var(--accent-color) ;
 }
 
 
@@ -388,8 +402,7 @@ text-align: center;
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin: auto;
-  padding-bottom: 30px;
+  
 }
 
 .social-icon{
@@ -397,14 +410,12 @@ text-align: center;
   
 }
   
-.social-icon:hover{
-  fill: currentColor;
- border-radius: 50%;
-  }
+
 
 .social-list:hover,
 .social-list:focus{
-color: var(--accent-color);
+background-color: var(--accent-color);
+color:var(--primary-white-color)
 
 }
 
@@ -419,7 +430,9 @@ padding:60px 0;
   gap: 10px;
  
 }
- 
+ .social-footer{
+  margin-left: 70px;
+ }
 .title-footer{
   line-height: 1.14;
   color: var(--primary-white-color);
@@ -429,8 +442,12 @@ padding:60px 0;
 
 .social-list{
   display: flex;
-  align-items: baseline;
-  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+ height: 44px;
+ border-radius: 50%;
+ color:#AFB1B8;
 }
 
 
@@ -455,13 +472,27 @@ color: var(--accent-color);
 .address-block:not(:last-child){
   margin-bottom: 9px;
 }
-
+.footer-list{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+}
 .footer-link{
   padding: 12px;
   border: 1px solid var(--fifth-color);
-border-radius: 50%;
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  gap: 10px;
 }
-
+.footer-icon{
+  color: currentColor;
+}
 .address-mail,
 .address-tel {
   color:rgba(255, 255, 255, 0.6);
