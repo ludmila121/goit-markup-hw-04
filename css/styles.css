@@ -213,6 +213,7 @@ padding: 32px 0;
     background-image: linear-gradient(rgba(47,48,58,0.4),rgba(47,48,58,0.4)), url('../img/employment.jpg');
      background-color: var(--secundary-color);
     padding: 200px 0;
+    background-repeat: no-repeat;
   }
 
 
@@ -385,16 +386,14 @@ margin-bottom: 16px;
   align-items: center;
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid currentColor;
   color: #AFB1B8;
   border-radius: 4px;
 }
  
 .clients:hover,
 .clients:focus{
-  fill:currentColor;
   color: var(--accent-color);
-  border-color:var(--accent-color) ;
 }
 
 
@@ -540,7 +539,8 @@ padding: 6px 22px;
 }
 
 
-.btn-task:hover
+.btn-task:hover,
+.btn-task:focus
 {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
